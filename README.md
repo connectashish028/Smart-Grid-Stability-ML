@@ -57,4 +57,4 @@ This project underscores the power of machine learning, especially XGBoost, in e
 
 
 ## Next Steps:
-Create an interactive dashboard using Streamlit to visualize the model predictions, comparison metrics, and provide an engaging way for stakeholders to explore the results.
+Create an interactive dashboard using Streamlit to visualize the model predictions, comparison metrics, and provide an engaging way for audience to explore the results.
