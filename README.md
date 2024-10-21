@@ -44,3 +44,7 @@ Utilizing the **Electrical Grid Stability Simulated Dataset** from Kaggle, the p
 ## Conclusion
 
 This project underscores the power of machine learning, especially XGBoost, in enhancing smart grid stability predictions. Accurate forecasting can significantly aid grid operators, improving energy distribution and resilience in renewable-heavy systems.
+
+
+## Next Steps:
+Create an interactive dashboard using Streamlit to visualize the model predictions, comparison metrics, and provide an engaging way for stakeholders to explore the results.
