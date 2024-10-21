@@ -6,6 +6,16 @@ This project leverages machine learning to predict smart grid stability amidst t
 
 Utilizing the **Electrical Grid Stability Simulated Dataset** from Kaggle, the project simulates a 4-node star network consisting of one energy supplier and three consumers. The dataset features **12 predictive variables** related to grid dynamics and includes a binary label indicating stability (Stable/Unstable).
 
+### Dataset Description
+This project uses the "Electrical Grid Stability Simulated Dataset," which simulates a 4-node star network comprising one energy supplier and three consumers. The dataset consists of 60,000 observations after augmentation (originally 10,000). Each observation contains 12 predictive features related to the grid's dynamic behavior and two dependent variables, including a binary label for grid stability (stable or unstable).
+
+### Feature Description
+* **Reaction times (τ1 to τ4):** Represent the response times of each network participant to changes in energy pricing.
+* **Nominal power produced or consumed (p1 to p4):** Measure energy production (positive values) and consumption (negative values). The balance between total energy produced and consumed is critical for stability.
+* **Price elasticity coefficients (g1 to g4):** Reflect how participants' energy consumption or production behavior changes in response to price fluctuations.
+
+The dependent variable 'stabf' is a binary label representing grid stability (1 = stable, 0 = unstable). This label will be the target for the classification models.
+
 ## Workflow
 
 1. **Data Acquisition:** Downloaded the dataset from Kaggle.
